@@ -1,0 +1,12 @@
+#input-text{
+    min-height: 400px;
+}
+#font-size-input{
+    width: 50px;
+
+}
+
+#color-picker{
+    margin: 0;
+    padding: 0;
+}

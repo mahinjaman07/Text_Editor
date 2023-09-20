@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Problem 3</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <section class="container  mt-3 bg-info p-4 rounded">
+            <header>
+                <h3 class="text-center p-3">My Text Editor</h3>
+            </header>
+
+            <div class="bg-body-secondary w-75 mx-auto rounded">
+                <div class="container">
+                    <div class="row p-4">
+                        <div id="fony-style" class="col">
+                            <button onclick="textBold()" > <i class="fa-solid fa-bold"></i></button>
+                            <button id="font-italic" > <i class="fa-solid fa-italic ps-2"> </i></button>
+                            <button id="text-underline" > <i class="fa-solid fa-underline ps-2"></i></button>
+                    
+                        </div>
+                    
+                        <div id="text-align" class="col">
+                            <button onclick="alignLeft()"> <i class="fa-solid fa-align-left"></i></button>
+                            <button onclick="alignCenter()"> <i class="fa-solid fa-align-center ps-2"></i></button>
+                            <button onclick="alignRight()"> <i class="fa-solid fa-align-right ps-2"></i></button>
+                        </div>
+                    
+                        <div id="color_font" class="col">
+                            <div class="row align-items-center justify-content-center w-75">
+                                <div class="col w-25">
+                                    <input type="number" value="15" id="font-size-input">
+                                </div>
+                                <div class="col">
+                                    <input type="color" id="color-picker">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <hr class="border border-dark border-3 opacity-75">
+                        </div>
+                </div>
+
+                    <div class="">
+                        <textarea class="container " id="input-text" cols="90" rows="10"></textarea>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
